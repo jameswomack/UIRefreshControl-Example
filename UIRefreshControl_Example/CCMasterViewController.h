@@ -13,5 +13,6 @@
 @interface CCMasterViewController : UITableViewController
 
 @property (strong, nonatomic) CCDetailViewController *detailViewController;
+@property (strong, nonatomic) NSMutableArray *objects;
 
 @end
